@@ -1,8 +1,8 @@
-Client-server Chat Application
+**Client-server Chat Application**
 
 This project is a simple multi-client chat application developed using Python and TCP socket programming.
 
-Features-
+**Features-**
 
 Multiple clients can connect to the server simultaneously
 
@@ -20,7 +20,7 @@ Message timestamps
 
 Server message logging in chat.log
 
-Technologies Used
+**Technologies Used**
 
 Python 
 
@@ -28,9 +28,9 @@ Socket Programming (TCP)
 
 Multithreading
 
-How to Run the Project
+**How to Run the Project**
 
-Step 1: Start the Server
+**Step 1: Start the Server**
 
 Open a terminal and run:
 
@@ -40,7 +40,7 @@ You should see:
 
 Server started on 127.0.0.1:5000
 
-Step 2: Start the Client
+**Step 2: Start the Client**
 
 Open another terminal and run:
 
@@ -48,27 +48,27 @@ python client.py
 
 Enter a username when prompted.
 
-Step 3: Start Multiple Clients
+**Step 3: Start Multiple Clients**
 
 Run the client program in multiple terminals to simulate multiple users chatting with each other.
 
-Available Commands
+**Available Commands**
 
-Normal text
+**Normal text**
 
 Sends a chat message to all connected users.
 
-users
+**users**
 
 Displays a list of currently connected users.
 
-quit
+**quit**
 
 Leaves the chat and disconnects from the server.
 
 You can see the server logs in the chat.log file. This file is created automatically when the server runs.
 
-example of client- 
+**example of client-** 
 
 Enter username: Deepali tomar
 
