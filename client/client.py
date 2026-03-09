@@ -16,11 +16,11 @@ def receive_messages(client_socket):
 def send_messages(client_socket):
     while True:
         message = input()
-        if message == "/quit":
+        if message == "quit":
             client_socket.sendall("QUIT".encode())
             client_socket.close()
             break
-        elif message == "/users":
+        elif message == "users":
             client_socket.sendall("USERS".encode())
         else:
             client_socket.sendall(f"MSG {message}".encode())
