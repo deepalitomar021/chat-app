@@ -1,16 +1,22 @@
-[15:35:27] Server started on 127.0.0.1:5000
-[15:35:46] Accepted connection from ('127.0.0.1', 50362)
-[15:35:46] Connection from ('127.0.0.1', 50362)
-[15:35:51] Deepali... joined the chat. Type /users to see who is online or /quit to leave
-[15:35:54] Deepali...: hello
-[15:36:11] Accepted connection from ('127.0.0.1', 50368)
-[15:36:11] Connection from ('127.0.0.1', 50368)
-[15:36:14] Tanu joined the chat. Type /users to see who is online or /quit to leave
-[15:36:16] Tanu: hii....
-[15:36:44] Accepted connection from ('127.0.0.1', 50537)
-[15:36:44] Connection from ('127.0.0.1', 50537)
-[15:36:48] Vansh joined the chat. Type /users to see who is online or /quit to leave
-[15:36:53] Vansh: helloo
-[15:37:41] Vansh: \quit
-[15:38:40] Tanu: \quit
-[15:38:50] Deepali...: \quit
+[20:57:09] Server started on 127.0.0.1:5000
+[20:57:20] Accepted connection from ('127.0.0.1', 52361)
+[20:57:20] Connection from ('127.0.0.1', 52361)
+[20:58:00] Deepali tomar joined the chat. Type /users to see who is online or /quit to leave
+[20:58:05] Deepali tomar: hello
+[20:58:18] Accepted connection from ('127.0.0.1', 55394)
+[20:58:18] Connection from ('127.0.0.1', 55394)
+[20:58:24] Tanu tomar joined the chat. Type /users to see who is online or /quit to leave
+[20:58:27] Tanu tomar: Hii
+[20:58:46] Accepted connection from ('127.0.0.1', 65460)
+[20:58:46] Connection from ('127.0.0.1', 65460)
+[20:58:54] Vansh tomar joined the chat. Type /users to see who is online or /quit to leave
+[20:58:58] Vansh tomar: Helloooo
+[21:00:54] Tanu tomar left
+[21:00:54] Tanu tomar has left the chat
+[21:00:54] Disconnected: ('127.0.0.1', 55394)
+[21:01:06] Vansh tomar left
+[21:01:06] Vansh tomar has left the chat
+[21:01:06] Disconnected: ('127.0.0.1', 65460)
+[21:01:13] Deepali tomar left
+[21:01:13] Deepali tomar has left the chat
+[21:01:13] Disconnected: ('127.0.0.1', 52361)
