@@ -41,7 +41,7 @@ def handle_client(client_socket, address):
             username = join_message.split(" ", 1)[1].strip()
             usernames[client_socket] = username
             clients.append(client_socket)
-            join_text = f"{username} joined the chat. Type /users to see who is online or /quit to leave"
+            join_text = f"{username} joined the chat. Type users to see who is online or quit to leave"
             broadcast(join_text, client_socket)
         while True:
             message = client_socket.recv(1024).decode()
@@ -74,3 +74,4 @@ def start_server():
         thread.start()
 if __name__ == "__main__":
     start_server()
+
