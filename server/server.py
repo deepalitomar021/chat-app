@@ -33,7 +33,7 @@ def remove_client(client):
         log_message(f"[{get_timestamp()}] {username} left")
         broadcast(leave_message)
         client.close()
-def handle_client(client_socket, address):
+def serve_client(client_socket, address):
     log_message(f"[{get_timestamp()}] Connection from {address}")
     try:
         join_message = client_socket.recv(1024).decode()
@@ -70,8 +70,9 @@ def start_server():
     while True:
         client_socket, address = server.accept()
         log_message(f"[{get_timestamp()}] Accepted connection from {address}")
-        thread = threading.Thread(target=handle_client, args=(client_socket, address))
+        thread = threading.Thread(target=serve_client, args=(client_socket, address))
         thread.start()
 if __name__ == "__main__":
     start_server()
+
 
